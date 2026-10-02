@@ -1,0 +1,100 @@
+<table style="border-collapse:collapse; border:none;">
+<caption style="font-weight: bold; text-align:left;">Table 2. Constants used in the model.</caption>
+<tr>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; text-align:left; ">Symbol</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Value</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Role</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Basis</th>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">a</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">7.181</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Intercept of the distance term</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Fitted to set shot conversion by distance (Anderson et al., 2018)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">b</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">−1.923</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Slope of the distance term on log d</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Fitted to set shot conversion by distance (Anderson et al., 2018)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">p</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.7</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Exponent of the angle penalty</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Calibrated to the angle split reported by Anderson et al. (2018)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">d₅₀</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">66 m</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Distance at which reachability falls to one half</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Set so Location at 54 m matches the 35.5% conversion beyond 50 m (Anderson et al., 2018)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">s</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">5</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Width of the reachability transition</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Set with d₅₀ against the same conversion rates</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">r_H</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">6.0 m</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Pressure radius for a defender in front of the carrier</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Reasoned disposal window of 1.5 s times the observed median defender speed of 4.06 m/s</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">r_L</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">4.5 m</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Pressure radius for a defender beside the carrier</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Proportional to r_H, following the zone ratios of Link et al. (2016)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">r_B</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">4.0 m</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Pressure radius for a defender behind the carrier</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Raised above Link's proportional value because a tackle from behind is legal (AFL, 2026)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">r₀</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">1.0 m</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Radius within which pressure is maximal</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">High pressure zone of Link et al. (2016)</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">λ</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">1.0</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Extent to which a closing defender stretches his radius</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Reasoned</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">v₀</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">3.0 m/s</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Reference speed difference for that stretch</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Set from the observed range of Δvᵢ</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">k₁</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">2.5</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Bounds the total discount applied to Location</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Reasoned; bounds Location at one fifth of its value</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">k₃</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">1.0</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Rate at which pressure saturates as defenders accumulate</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Reasoned</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; background-color:#f2f2f2; ">k₅</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">0.2</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Steepness of the response to a numbers advantage</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; background-color:#f2f2f2; ">Set from the observed range of M</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; border-bottom: double; ">n₀</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">3</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Scale for forward 50 occupancy</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Reasoned</td>
+</tr>
+</table>
+

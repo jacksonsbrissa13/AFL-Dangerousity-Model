@@ -1,0 +1,29 @@
+.DS_Store
+.Rhistory
+.RData
+.RDataTmp*
+.Rproj.user/
+.renv/
+renv/library/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/
+.codex/
+.positai/
+__pycache__/
+.venv/
+venv/
+node_modules/
+*.mp4
+*.mov
+*.m4v
+~$*
+
+# Keep the editable report local; publish the PDF version only.
+/reports/*.docx
+
+# Source tracking input remains local and is excluded from publication.
+/afl_tracking_plays.csv

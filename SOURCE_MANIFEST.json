@@ -1,0 +1,103 @@
+{
+  "note": "Portfolio copies use descriptive filenames. Current SHA-256 values describe published copies; source_sha256 records original source content. The source tracking input and editable Word report remain local and are excluded from current publication files. The PDF report is published under reports/. Original computer files were not edited or moved. Original source paths are retained only in local preparation records.",
+  "files": [
+    {
+      "file": "Figures/chasedown_geometry.png",
+      "bytes": 82481,
+      "sha256": "694bae12f2470bcb020d98d9b8adf09197f25f23966b2b74aff3d981a1acf716",
+      "source_sha256": "694bae12f2470bcb020d98d9b8adf09197f25f23966b2b74aff3d981a1acf716",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/dangerousity_diagrams.pptx",
+      "bytes": 179961,
+      "sha256": "f1676fbc36f7b406523d8a1c15d469075608e47c59b6fc0c364457bb20956577",
+      "source_sha256": "f1676fbc36f7b406523d8a1c15d469075608e47c59b6fc0c364457bb20956577",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/dangerousity_formula.png",
+      "bytes": 39787,
+      "sha256": "722966d743dba5c086bbf2a244377a7ec16eae21ffabe9c83d6039e89aa7391b",
+      "source_sha256": "722966d743dba5c086bbf2a244377a7ec16eae21ffabe9c83d6039e89aa7391b",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/distance_factor.png",
+      "bytes": 98242,
+      "sha256": "cae9a9b015e558c69536d03fd534e2146fc69b843ab4e942907ffbc3f1304654",
+      "source_sha256": "cae9a9b015e558c69536d03fd534e2146fc69b843ab4e942907ffbc3f1304654",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/model_constants.html",
+      "bytes": 8712,
+      "sha256": "2573e0bd83a305c68f2bf720e6d58203d26615e2f96248c16ff7b3db5cdee0e8",
+      "source_sha256": "2573e0bd83a305c68f2bf720e6d58203d26615e2f96248c16ff7b3db5cdee0e8",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/model_inputs.png",
+      "bytes": 160170,
+      "sha256": "971d45e26db9bd6939ff96e6bd2b06c8011e4d50398e8f92614e4defeeb90751",
+      "source_sha256": "971d45e26db9bd6939ff96e6bd2b06c8011e4d50398e8f92614e4defeeb90751",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/model_notation.html",
+      "bytes": 4560,
+      "sha256": "2cbe6cf11765def6acf4722fa7e3c3f541c80281818291362cb8e50e303bdd0f",
+      "source_sha256": "2cbe6cf11765def6acf4722fa7e3c3f541c80281818291362cb8e50e303bdd0f",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/pressure_zones.png",
+      "bytes": 66844,
+      "sha256": "e8dddddbd0c00eabfa5352f5a079c8889bdddad382fc01b3bb96b69ced4b1cf6",
+      "source_sha256": "e8dddddbd0c00eabfa5352f5a079c8889bdddad382fc01b3bb96b69ced4b1cf6",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Figures/shot_angle_geometry.png",
+      "bytes": 95746,
+      "sha256": "96739cca0f6d66a218c5707bcf2e364295e63a24e64a7608b9f8c7062747960b",
+      "source_sha256": "96739cca0f6d66a218c5707bcf2e364295e63a24e64a7608b9f8c7062747960b",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "Working/design_dangerousity_model.R",
+      "bytes": 11973,
+      "sha256": "80d70bcbf6b2d4628245525697e6709674cac0c942e470fa0bd2c7251cf38f9d",
+      "source_sha256": "287d843c10b378c80c543b2b20e2184c726d18d33af63dbf0cb9cdc6247f718d",
+      "content_changed_for_publication": true
+    },
+    {
+      "file": "Working/explore_dangerousity.R",
+      "bytes": 15162,
+      "sha256": "cb8559e419b46bbeec1e0b2ff7f368d2a26fd93f93093c6127c3d0b0812f5f15",
+      "source_sha256": "c3dc48b7f41cecd6b9d0b9ea463f3181cca9b54d03bfa9bd1aea136618ad944a",
+      "content_changed_for_publication": true
+    },
+    {
+      "file": "afl_dangerousity.Rproj",
+      "bytes": 205,
+      "sha256": "3a81ccc25a62f1a31c7d3404389935ced50831abea5e848408745ad1a1bf6126",
+      "source_sha256": "3a81ccc25a62f1a31c7d3404389935ced50831abea5e848408745ad1a1bf6126",
+      "content_changed_for_publication": false
+    },
+    {
+      "file": "dangerousity_analysis.R",
+      "bytes": 3990,
+      "sha256": "4c7e3790ceea07d0ea2eff0474b274dcd0ada58fde0f20586b308517f75bfccf",
+      "source_sha256": "a6b9eeb1b4896bdf99e1850f0a797ca2202cf1d484541c6842640eb1d0354be0",
+      "content_changed_for_publication": true
+    },
+    {
+      "file": "reports/dangerousity_report.pdf",
+      "bytes": 1250905,
+      "sha256": "093b4bb2a8626454d4c77d5fc571aa1177c2191d8f756ac833f6eba05160a5ae",
+      "source_sha256": "093b4bb2a8626454d4c77d5fc571aa1177c2191d8f756ac833f6eba05160a5ae",
+      "content_changed_for_publication": false
+    }
+  ]
+}
